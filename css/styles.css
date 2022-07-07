@@ -12,6 +12,10 @@ i {
 }**/
 
 /****static header**/
+
+body {
+	font-family: sans-serif;
+}
 h2 {
 	color: white;
 	margin: 0px;
@@ -43,4 +47,24 @@ h2 {
 	background-color:#0A341C;
 	color: white;
 	margin: 0;
+}
+
+#animal-count {
+	background-color: pink;
+	table-layout: fixed;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+
+}
+tr {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+td {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding: 0px;
 }
