@@ -1,0 +1,46 @@
+/**a:link{
+	color: #61D9F9;
+}
+a:visited {
+	color:black;
+}
+a:hover {
+	color: #61F7F9;
+}
+i {
+	color: yellowgreen;
+}**/
+
+/****static header**/
+h2 {
+	color: white;
+	margin: 0px;
+
+}
+
+#main-nav {
+	background-color:#F1900F /**#D8D68A#6e3b17**/;
+	color: black;
+}
+
+/****Home Page***/
+#Dahl-Sheep { 
+	background-color:#0A341C; }
+
+#Dahl {
+	border-style: solid;
+	border-width: 3px;
+	border-color: 302e20;
+}
+#dahl-caption {
+	position: relative;
+	background-color: #0A341C/**#d1d2c8**/;
+	width 100%
+}
+
+/***Page 2***/
+#bears {
+	background-color:#0A341C;
+	color: white;
+	margin: 0;
+}
