@@ -12,11 +12,19 @@ i {
 }**/
 
 /****static header**/
+* {
+	box-sizing: border-box;
+	font-weight: unset;
+	margin: 0px;
 
+}
 body {
 	font-family: sans-serif;
+	margin: auto;
+
 }
 h2 {
+	background-color:#0A341C;
 	color: white;
 	margin: 0px;
 
@@ -25,16 +33,26 @@ h2 {
 #main-nav {
 	background-color:#F1900F /**#D8D68A#6e3b17**/;
 	color: black;
+	height: 100px;
+}
+/***static foot**/
+#static-foot {
+	background-color:#F1900F /**#D8D68A#6e3b17**/;
+	color: black;
+	height: 50px;
+}
+
 }
 
 /****Home Page***/
 #Dahl-Sheep { 
-	background-color:#0A341C; }
+	background-color:#0A341C; 
+	color: white;
+}
 
 #Dahl {
-	border-style: solid;
-	border-width: 3px;
-	border-color: 302e20;
+	background-color: #0A341C;
+
 }
 #dahl-caption {
 	position: relative;
@@ -42,7 +60,7 @@ h2 {
 	width 100%
 }
 
-/***Page 2***/
+/***Pictures***/
 #bears {
 	background-color:#0A341C;
 	color: white;
@@ -67,4 +85,8 @@ td {
 	border-width: 2px;
 	border-color: black;
 	padding: 0px;
+}
+
+#email {
+	margin: 0px;
 }
