@@ -1,49 +1,146 @@
 /*******Basic Site Styles************/
 * {
-	font-family: 'ubuntu', sans-serif;
-}
-
-header {
-	text-transform: uppercase;
-   	text-shadow: 2px 2px 2px darkgrey;
-   	background-color:  #F1900F;
-   	color: #000000;
-   	margin: 0px;
+		font-family: 'ubuntu', sans-serif;
 }
 body {
 	font-style: normal;
 	background-color: #0A341C;
 	color: #FFFFFF;
-
 	font-weight: 600;
   	text-justify: inter-word;
 	text-align: none;
   	text-justify: none;
   	margin: 0px;
 }
+hr {
 
-h1 {
-	text-align: center;
+	margin-right: 45px;
+	margin-left: 45px;	
+	border: 1px solid #F1900F;
 }
+/***********Header and Navigation**************/
+header {
+	width: 100%;
+	height: 125px;
+   	background-color:  #F1900F;
+   	color: #000000;
+   	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   	margin: 0px;
+ }
+div #logo-brand {
+	position: relative;
+}
+#logo {
+	position: relative;
+	float: left;
+	height: 118px;
+	margin: 3px;
+}
+#brand {
+	position: relative;
+	float: left;
+	display: block;
+	margin: 40px 10px;
+	text-transform: uppercase;
+   	text-shadow: 2px 4px 2px #636362;
+   	font-size: 42px;
+}
+
+#links {
+	position: relative;
+	float: right;
+	margin-top: 5px;
+	margin-right: 20px;
+	font-size: 20px;
+	padding-bottom: 5px;
+  	text-shadow: 1px 1px 1px #636362;
+}
+a:link {
+	color: #000000;
+	 text-decoration: none;
+}
+a:visited {
+  color: #10502B;
+   text-decoration: none;
+}
+a:hover {
+  color: #147D41;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+   text-decoration: none;
+}
+a:current {
+	color: white;
+}
+#home-ico, #pic-cat-ico, #stories-ico, #misc-ico {
+margin-right: 12px;
+margin-bottom: 7px;
+}
+
+/**************Body*********************/
 
 #about-title {
 	text-align: center;
 }
 
-h4 {
-	text-align: center;
+#about-p1, #about-p2 {
+	letter-spacing: 1px;
+	margin-right: 50px;
+	margin-left: 50px;
+
 }
+
 footer {
 
-	text-transform: uppercase;
-   	text-shadow: 2px 2px 2px darkgrey;
+	width: 100%;
+	height: 75px;
    	background-color:  #F1900F;
    	color: #000000;
+   	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
    	margin: 0px;
+ }
+div {
+	position: relative;
 }
 
+#footer-title {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	display: block;
+	text-transform: uppercase;
+   	text-shadow: 1px 1px 1px #636362;
+   	font-size: 24px;
+   	text-align: center;
+}
+
+#footer-links {
+	position: relative;	
+	font-size: 16px;
+  	text-shadow: 1px 1px 1px #636362;
+}
+#yell {
+	position: relative;
+}
+#ynps-ico {
+position: relative;
+margin-left: 50px;
+margin-top: 0px;
+padding-right: 5px;
+margin-bottom: 20px;
 
 
+
+
+}
 /********Page Header and Navigation
 	box-sizing: border-box;
 	font-weight: unset;
