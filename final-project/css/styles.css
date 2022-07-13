@@ -1,0 +1,38 @@
+h1 {
+	background: lightblue;
+	font-size: 200%;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background: #666666;
+	text-align: center;
+}
+
+h1{
+	color: #FFFFFF;
+}
+
+nav	{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	color: blueviolet;
+	background: pink;
+	font-size: 125%;
+	font-family: Helvetica, sans-serif;
+}
+
+details {
+	font-style: italic;
+}
+summary {
+	font-style: normal;
+}
+
+footer {
+	background: #666666;
+}

@@ -1,27 +1,67 @@
-/**a:link{
-	color: #61D9F9;
-}
-a:visited {
-	color:black;
-}
-a:hover {
-	color: #61F7F9;
-}
-i {
-	color: yellowgreen;
-}**/
-
-/****static header**/
+/*******Basic Site Styles************/
 * {
+	font-family: 'ubuntu', sans-serif;
+}
+
+header {
+	text-transform: uppercase;
+   	text-shadow: 2px 2px 2px darkgrey;
+   	background-color:  #F1900F;
+   	color: #000000;
+   	margin: 0px;
+}
+body {
+	font-style: normal;
+	background-color: #0A341C;
+	color: #FFFFFF;
+
+	font-weight: 600;
+  	text-justify: inter-word;
+	text-align: none;
+  	text-justify: none;
+  	margin: 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#about-title {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+footer {
+
+	text-transform: uppercase;
+   	text-shadow: 2px 2px 2px darkgrey;
+   	background-color:  #F1900F;
+   	color: #000000;
+   	margin: 0px;
+}
+
+
+
+/********Page Header and Navigation
 	box-sizing: border-box;
 	font-weight: unset;
-	margin: 0px;
+}
 
+
+#static-head {
+	background-color: #F1900F ;
+	color: black;
 }
 body {
 	font-family: sans-serif;
 	margin: auto;
-
+	background-color:#0A341C ;
+	color: white;
+}
+h1 {
+	color: ;
 }
 h2 {
 	background-color:#0A341C;
@@ -31,36 +71,45 @@ h2 {
 }
 
 #main-nav {
-	background-color:#F1900F /**#D8D68A#6e3b17**/;
+	background-color:#F1900F
 	color: black;
 	height: 100px;
+
 }
-/***static foot**/
+/***static foot
 #static-foot {
-	background-color:#F1900F /**#D8D68A#6e3b17**/;
+	background-color:#F1900F;
 	color: black;
 	height: 50px;
 }
+figcaption {
+	color: 255;
+	text-align: center;
+}
+
+/****Home Page
+.container #about {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	line-height: 2;
+	color: pink;
+
 
 }
 
-/****Home Page***/
-#Dahl-Sheep { 
+#pictures
+ { 
 	background-color:#0A341C; 
-	color: white;
+	color: rgba(255, 255, 255, .5);
+	margin-top: 20px;
+	height: 300px;
+	width: 400px;
 }
 
-#Dahl {
-	background-color: #0A341C;
 
-}
-#dahl-caption {
-	position: relative;
-	background-color: #0A341C/**#d1d2c8**/;
-	width 100%
-}
 
-/***Pictures***/
+/***Pictures
 #bears {
 	background-color:#0A341C;
 	color: white;
