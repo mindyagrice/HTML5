@@ -3,26 +3,23 @@
 		font-family: 'ubuntu', sans-serif;
 }
 body {
+	box-sizing: border-box;
+	position: relative;
 	font-style: normal;
 	background-color: #0A341C;
 	color: #FFFFFF;
 	font-weight: 600;
-  	text-justify: inter-word;
 	text-align: none;
   	text-justify: none;
   	margin: 0px;
 }
-hr {
 
-	margin-right: 45px;
-	margin-left: 45px;	
-	border: 1px solid #F1900F;
-}
+
 /***********Header and Navigation**************/
 header {
 	width: 100%;
 	height: 125px;
-   	background-color:  #F1900F;
+   	background-color:#e38820;/* #F39E2D; #F1900F;*/
    	color: #000000;
    	margin-block-start: 0em;
     margin-block-end: 0em;
@@ -82,7 +79,9 @@ margin-right: 12px;
 margin-bottom: 7px;
 }
 
-/**************Body*********************/
+/************Main Page Body*********************/
+
+
 
 #about-title {
 	text-align: center;
@@ -94,12 +93,66 @@ margin-bottom: 7px;
 	margin-left: 50px;
 
 }
+#about-p2 {
+	margin-bottom: 50px;
+}
+#main-body-row {
+	width: 100%;
+	height: 400px;
+}
+
+#main-pictures-category, #main-stories-category, #main-odds-category {
+	position: relative;
+	float: left;
+	display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    border: 2px solid #e38820;
+    margin-left: 40px;
+}
+
+#main-stories-category, #main-pictures-category{
+	margin-right: 10px;
+
+}
+
+
+
+#main-picture-title, #main-stories-title, #main-odds-title {
+	position: relative;
+	font-size: 20px;
+	margin-bottom: 20px;
+
+	text-align: center;
+}
+
+#main-dahl-img, #main-stories-img, #main-odds-img{
+	position: relative;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 333px;
+}
+
+#main-dahl-capt, #main-stories-capt, #main-odds-capt {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+
+
+/***********Footer and more Links**************/
 
 footer {
 
 	width: 100%;
 	height: 75px;
-   	background-color:  #F1900F;
+   	background-color:  #e38820;
    	color: #000000;
    	margin-block-start: 0em;
     margin-block-end: 0em;
