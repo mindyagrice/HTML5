@@ -1,26 +1,21 @@
-
-header	{
-	background-color: #7FB3D5;
+p{
+  color: red;
+  padding:10px 5px;
+  background: black;
 }
-
-h1 {
-	text-align: center;
+.fancy{
+  font-family: cursive;
+  background: red;
+  color: green;
 }
+.plain{
+  font-family: Times, serif;
+  color: black;
+}  
 
-h1, h2 {
-	color: rgb(169, 38, 72);
-	text-transform: uppercase;
-}
-
-section {
-	background-color: #E6B0AA;
-}
-
-a {
-	background-color: #FAF6F1;
-	color: #2ECC71;
-}
-
-img {
-	display: none;
+div{
+   width:100px;
+   padding: 10px;
+   margin: 5px;
+   border: 2px;
 }

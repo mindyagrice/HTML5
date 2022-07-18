@@ -1,22 +1,36 @@
+body {
+	background-color: lightgrey;
+	margin: 4%;
+}
+
 h1 {
-	background: lightblue;
+	color: #FFFFFF;
 	font-size: 200%;
 	font-family: Arial, sans-serif;
 }
 
 header {
-	background: #666666;
+	background: lightblue;
 	text-align: center;
+	padding: 15px;
 }
-
-h1{
-	color: #FFFFFF;
+header, footer {
+	background: lightblue ;
+	background: -moz-linear-gradient(top,lightblue 0%, lightpink);
+	background: -webkit-linear-gradient(lightblue 0%, lightpink);
+	background: -o-linear-gradient(lightblue 0%, lightpink);
+	background: linear-gradient(lightblue 0%, lightpink);
 }
 
 nav	{
 	font-variant: small-caps;
 	font-size: 150%;
 	font-family: Arial, sans-serif;
+}
+nav a {
+	width: 20%;
+	display: inline block;
+	background-color: white;
 }
 
 h2 {
@@ -26,6 +40,15 @@ h2 {
 	font-family: Helvetica, sans-serif;
 }
 
+.half {
+	width: 45%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+}
+.whole {
+	clear: both;
+}
 details {
 	font-style: italic;
 }
@@ -33,6 +56,11 @@ summary {
 	font-style: normal;
 }
 
+
 footer {
-	background: #666666;
+
+	clear: both;
+}
+img {
+	width: 125px;
 }
